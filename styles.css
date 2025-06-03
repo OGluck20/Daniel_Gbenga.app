@@ -620,14 +620,6 @@ body {
     border: 2px solid var(--light-text);
 }
 
-/* Footer */
-footer {
-    background: var(--dark-bg);
-    color: var(--light-text);
-    padding: 2rem;
-    text-align: center;
-}
-
 /* Animations */
 @keyframes fadeInDown {
     from {
