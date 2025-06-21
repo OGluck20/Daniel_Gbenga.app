@@ -620,14 +620,6 @@ body {
     border: 2px solid var(--light-text);
 }
 
-/* Footer */
-footer {
-    background: var(--dark-bg);
-    color: var(--light-text);
-    padding: 2rem;
-    text-align: center;
-}
-
 /* Animations */
 @keyframes fadeInDown {
     from {
@@ -1013,4 +1005,36 @@ footer {
 
 .back-to-top i {
     font-size: 1.5rem;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    border-top: 1px solid rgba(0, 212, 255, 0.2);
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-bottom p {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links a {
+    color: #888;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #00d4ff;
 }
